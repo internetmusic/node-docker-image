@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-slim
 ENV WAVES_VERSION="latest"
-ENV WAVES_LOG_LEVEL="DEBUG"
+ENV WAVES_LOG_LEVEL="INFO"
 ENV WAVES_HEAP_SIZE="4g"
-ENV WAVES_CONFIG_FILE="/waves/configs/waves-config.conf"
+ENV WAVES_CONFIG_FILE="/waves/configs/waves.conf"
 
 MAINTAINER Inal Kardanov <ikardanov@wavesplatform.com> (@ikardanov)
 
